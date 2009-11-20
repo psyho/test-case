@@ -1,0 +1,17 @@
+= Description
+
+This is the test case for Netlog OAuth
+
+The problem we are encountering is that after redirecting user to the authorization page, after user clicks "Confirm" they do not get redirected back to our site, but instead there is a message that "something has gone wrong".
+
+This test case passes if user gets redirected back, and sees the message "If you can read this, then the bug did not occur."
+
+= Installation
+
+  sudo apt-get install ruby rubygems
+  sudo gem install bundler
+  cd /the/test/case/dir
+  cp config.yml.example config.yml
+  <input the right consumer keys>
+  gem bundle
+  ruby netlog.rb
