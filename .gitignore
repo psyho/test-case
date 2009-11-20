@@ -1,2 +1,6 @@
 config.yml
 .idea/*
+bin/*
+vendor/gems/*
+!vendor/gems/cache/
+
