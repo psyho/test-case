@@ -15,3 +15,7 @@ This test case passes if user gets redirected back, and sees the message "If you
   <input the right consumer keys>
   gem bundle
   ruby netlog.rb
+
+= Running
+
+After you run "ruby netlog.rb" go to site http://localhost:4567/ and click on the link that appears there. Follow the flow and if you finally get redirected back to localhost with message "If you can read this, then the bug did not occur." then the test passes.
